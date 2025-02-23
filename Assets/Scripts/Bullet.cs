@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
     {
         if (hasTarget)
         {
-            // ✅ Move the bullet continuously in the same direction
+            //Move the bullet continuously in the same direction
             transform.position += direction * speed * Time.deltaTime;
         }
     }
